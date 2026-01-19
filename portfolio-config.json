@@ -1,0 +1,355 @@
+{
+  "personal": {
+    "name": "Md Ali Khan",
+    "age": 22,
+    "location": "India",
+    "title": "AI/ML Engineer | Automation Specialist",
+    "email": "mdalikhan9097@gmail.com",
+    "handle": "@_allie_11",
+    "bio": "AI/ML practitioner (B.Tech 2025) bridging the gap between Deep Learning models and intelligent automation. Experienced in building Multi-Agent Systems, Automation Pipelines, and Computer Vision solutions. Passionate about \"First Principles\" thinking and treating AI problems as engineering challenges.",
+    "avatar": "/Toon.jpg",
+    "avatar2": "/alipic1.png",
+    "fallbackAvatar": "https://images.unsplash.com/photo-1610216705422-caa3fcb6d158?q=80&w=3560&auto=format&fit=crop&ixlib=rb-4.0.3"
+  },
+  "education": {
+    "current": {
+      "degree": "B.Tech in AI & ML",
+      "institution": "Dr. B.C. Roy Engineering College",
+      "duration": "2021 – 2025",
+      "cgpa": "7.49",
+      "graduationDate": "2025"
+    },
+    "achievements": [
+      "Relevant Coursework: DSA, OOP, Deep Learning, NLP",
+      "Specialization in Multi-Agent Systems and Automation"
+    ]
+  },
+  "experience": [
+    {
+      "company": "Celebal Technologies",
+      "position": "Data Science Intern",
+      "type": "Internship",
+      "duration": "Previous",
+      "description": "Optimized ML models (15% error reduction) and automated data ingestion pipelines (40% speed improvement).",
+      "technologies": ["Machine Learning", "Data Pipelines", "Python"]
+    },
+    {
+      "company": "DesignBird",
+      "position": "Machine Learning Intern",
+      "type": "Internship",
+      "duration": "Previous",
+      "description": "Built a voice-controlled AI assistant, reducing task execution time by 25%.",
+      "technologies": ["Voice AI", "Machine Learning", "Python"]
+    }
+  ],
+  "skills": {
+    "programming": [
+      "Python",
+      "Java",
+      "Kotlin",
+      "TypeScript"
+    ],
+    "ml_ai": [
+      "TensorFlow & Keras",
+      "Scikit-Learn",
+      "Pandas & NumPy",
+      "Matplotlib",
+      "OpenCV",
+      "Generative AI & LLMs",
+      "Google Gemini API",
+      "Groq API",
+      "RAG (Retrieval-Augmented Generation)",
+      "YOLOv8 (Object Detection)",
+      "MobileNetV2",
+      "BLIP (Scene Description)",
+      "OCR",
+      "Whisper (Speech Recognition)",
+      "TTS (Text-to-Speech)",
+      "NLU (Natural Language Understanding)",
+      "Deep Learning",
+      "Transfer Learning",
+      "Neural Networks",
+      "Supervised & Unsupervised Learning"
+    ],
+    "web_development": [
+      "React",
+      "Node.js",
+      "Hono",
+      "Streamlit",
+      "Next.js"
+    ],
+    "iot_hardware": [],
+    "frontend": [
+      "React",
+      "TypeScript",
+      "Streamlit",
+      "Tailwind CSS",
+      "Next.js"
+    ],
+    "backend": [
+      "Node.js",
+      "Hono",
+      "Supabase",
+      "Firebase",
+      "PostgreSQL",
+      "MySQL",
+      "Java"
+    ],
+    "databases": [
+      "PostgreSQL",
+      "MySQL",
+      "Supabase",
+      "Firebase",
+      "ChromaDB (Vector DB)"
+    ],
+    "devops_cloud": [
+      "Vercel",
+      "Render",
+      "Containerized Deployment",
+      "Model Deployment",
+      "Git & GitHub",
+      "Docker",
+      "n8n Automation",
+      "Vitest",
+      "Jest"
+    ],
+    "soft_skills": [
+      "Event Management (Techfest 700+ attendees)",
+      "Team Leadership",
+      "Problem Solving",
+      "Engineering Mindset",
+      "First Principles Thinking"
+    ]
+  },
+  "projects": [
+    {
+      "title": "AI Support Multi-Agent Platform",
+      "category": "AI/Automation",
+      "description": "Built a high-performance customer support platform featuring a multi-agent backend capable of maintaining conversational context across sessions. Developed a type-safe API using Hono and integrated Vercel AI SDK with Google Gemini and OpenAI models. Managed as a monorepo with Turborepo, using PostgreSQL (Supabase) and Prisma ORM for efficient data handling.",
+      "techStack": [
+        "React",
+        "Vite",
+        "Lucide Icons",
+        "Hono",
+        "Node.js",
+        "Vercel AI SDK",
+        "Google Gemini",
+        "OpenAI",
+        "PostgreSQL (Supabase)",
+        "Prisma ORM",
+        "Turborepo"
+      ],
+      "date": "2025",
+      "status": "Completed",
+      "featured": true,
+      "links": [
+        {
+          "name": "Live Site",
+          "url": "https://my-support-ai-frontend-bh1kowo3m-alikhan1129s-projects.vercel.app/"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/alikhan1129"
+        }
+      ],
+      "images": [
+        {
+          "src": "/ai support.PNG",
+          "alt": "Multi-Agent Platform"
+        }
+      ]
+    },
+    {
+      "title": "Automated Resume Customization Pipeline",
+      "category": "Automation",
+      "description": "Engineered an automated ETL workflow using first principles thinking to map candidate experiences to job descriptions. Integrated Groq API for intelligent rewriting and PDF parsing for data extraction.",
+      "techStack": [
+        "n8n",
+        "Groq API",
+        "ETL"
+      ],
+      "date": "2025",
+      "status": "Completed",
+      "featured": true,
+      "links": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/alikhan1129"
+        }
+      ],
+      "images": [
+        {
+          "src": "/placeholder.jpg",
+          "alt": "Resume Pipeline"
+        }
+      ]
+    },
+    {
+      "title": "ADGM Corporate Agent",
+      "category": "AI/RAG",
+      "description": "Built a Streamlit-based AI assistant integrating Groq API for corporate document Q&A. Implemented RAG with ChromaDB to deliver context-aware responses from uploaded files. Designed an interactive UI for real-time queries and file uploads, with containerized deployment.",
+      "techStack": [
+        "Streamlit",
+        "Groq API",
+        "ChromaDB",
+        "RAG"
+      ],
+      "date": "2025",
+      "status": "Completed",
+      "featured": true,
+      "links": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/alikhan1129"
+        }
+      ],
+      "images": [
+        {
+          "src": "/adgm.PNG",
+          "alt": "ADGM Agent"
+        }
+      ]
+    },
+    {
+      "title": "Multi-Modal AI Voice & Vision Assistant",
+      "category": "AI Assistant",
+      "description": "Developed a voice-enabled assistant with NLP-based command parsing. Integrated Whisper for speech recognition and TTS. Implemented OCR, YOLOv8 for object detection, and BLIP for scene description. Features include app launching (Notepad, Office), file/web search, memory recall, and schedule management. Secured API access with modularized codebase.",
+      "techStack": [
+        "Python",
+        "Whisper",
+        "YOLOv8",
+        "BLIP",
+        "NLP"
+      ],
+      "date": "2024",
+      "status": "Completed",
+      "featured": true,
+      "links": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/alikhan1129"
+        }
+      ],
+      "images": [
+        {
+          "src": "/placeholder.jpg",
+          "alt": "AI Assistant"
+        }
+      ]
+    },
+    {
+      "title": "AI Pest Control System",
+      "category": "Computer Vision",
+      "description": "Built a deep learning model using MobileNetV2 to classify 12 pest types with 85%+ validation accuracy. Balanced dataset using augmentation (500 images per class) and fine-tuned the model with transfer learning. Integrated a recommendation system that maps pests to natural, non-toxic pesticides. Created a prediction interface utilizing Matplotlib.",
+      "techStack": [
+        "Python",
+        "MobileNetV2",
+        "Transfer Learning",
+        "Matplotlib"
+      ],
+      "date": "2025",
+      "status": "Completed",
+      "featured": true,
+      "links": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/alikhan1129"
+        }
+      ],
+      "images": [
+        {
+          "src": "/aipest.PNG",
+          "alt": "Pest Control AI"
+        }
+      ]
+    }
+  ],
+  "social": {
+    "linkedin": "https://linkedin.com/in/md-ali-khan",
+    "github": "https://github.com/alikhan1129",
+    "twitter": "https://x.com/@_allie_11",
+    "portfolio": "https://portfolio.mdalikhan.com",
+    "instagram": "https://instagram.com/__allie_"
+  },
+  "internship": {
+    "seeking": true,
+    "duration": "Full-time / Internship",
+    "startDate": "Immediate",
+    "preferredLocation": "Remote or On-site",
+    "focusAreas": ["AI/ML Engineering", "Intelligent Automation"],
+    "availability": "Available for immediate start",
+    "workStyle": "First Principles thinker, Engineering-focused",
+    "goals": "Bridging the gap between Deep Learning models and intelligent automation pipelines."
+  },
+  "personality": {
+    "traits": ["Engineering Mindset", "First Principles Thinking", "Problem Solver", "Innovative"],
+    "interests": ["AI/ML", "Automation", "System Architecture", "Open Source"],
+    "funFacts": [
+      "Bridges gap between DL models and automation",
+      "Passionate about Multi-Agent Systems",
+      "Treats resume writing as a data mapping problem"
+    ],
+    "workingStyle": "I treat AI problems as engineering challenges.",
+    "motivation": "Solving complex problems with First Principles thinking."
+  },
+  "resume": {
+    "title": "Md Ali Khan - Resume",
+    "description": "AI/ML Engineer & Automation Specialist | B.Tech 2025",
+    "fileType": "PDF",
+    "lastUpdated": "January 2026",
+    "fileSize": "N/A",
+    "downloadUrl": "/MD_Ali_Khan_AI_ML_Resume_2026.pdf",
+    "previewImageSrc": "/resume_preview.PNG"
+  },
+  "chatbot": {
+    "name": "Ali",
+    "personality": "technical, innovative, engineering-focused",
+    "tone": "professional and insightful",
+    "language": "english",
+    "responseStyle": "concise and technical",
+    "useEmojis": true,
+    "topics": [
+      "AI/ML",
+      "Automation",
+      "Projects",
+      "Experience"
+    ]
+  },
+  "presetQuestions": {
+    "me": [
+      "Who is Md Ali Khan?",
+      "Tell me about your AI experience",
+      "What is your tech stack?",
+      "What are your core competencies?"
+    ],
+    "professional": [
+      "What is your experience with Multi-Agent Systems?",
+      "How do you approach AI problems?",
+      "Tell me about your internship experience",
+      "Are you open to work?"
+    ],
+    "projects": [
+      "Tell me about the Multi-Agent AI Support Platform",
+      "How does your Resume Customization Pipeline work?",
+      "What did you build with MobileNetV2?",
+      "Explain the Multi-Modal AI Assistant"
+    ],
+    "contact": [
+      "How can I contact you?",
+      "What is your GitHub?",
+      "Are you on LinkedIn?",
+      "What's your email?"
+    ],
+    "fun": [
+      "What are your interests?",
+      "Tell me a fun fact about you",
+      "What is First Principles thinking?"
+    ]
+  },
+  "meta": {
+    "configVersion": "1.0",
+    "lastUpdated": "2026-01-19",
+    "generatedBy": "Md Ali Khan",
+    "description": "Portfolio configuration for Md Ali Khan - AI/ML Engineer & Automation Specialist"
+  }
+}

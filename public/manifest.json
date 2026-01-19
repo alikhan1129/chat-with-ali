@@ -1,0 +1,45 @@
+{
+  "name": "Portfolio Builder - Create Professional Portfolios in Minutes",
+  "short_name": "Portfolio Builder",
+  "description": "Revolutionary AI-powered portfolio builder that requires zero coding. Edit one JSON file and get a complete interactive portfolio with AI chatbot.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#667eea",
+  "orientation": "portrait-primary",
+  "categories": ["productivity", "developer tools", "portfolio"],
+  "lang": "en",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "16x16 32x32 48x48 64x64 128x128 256x256",
+      "type": "image/x-icon",
+      "purpose": "any"
+    },
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/alipic1.png",
+      "sizes": "1200x630",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "scope": "/",
+  "id": "portfolio-builder",
+  "related_applications": [],
+  "prefer_related_applications": false
+}
