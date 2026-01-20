@@ -49,7 +49,6 @@ try {
       linkedin: '',
       github: '',
       twitter: '',
-      portfolio: '',
       instagram: ''
     },
     internship: {

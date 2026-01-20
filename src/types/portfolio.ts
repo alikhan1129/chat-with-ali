@@ -70,7 +70,6 @@ export interface Social {
   linkedin: string;
   github: string;
   twitter: string;
-  portfolio: string;
   instagram: string;
 }
 
