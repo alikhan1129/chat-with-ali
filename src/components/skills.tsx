@@ -2,7 +2,7 @@
 
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import {
   Code,
   Cpu,
@@ -61,7 +61,7 @@ const Skills = () => {
   ].filter((category) => category.skills && category.skills.length > 0);
 
   // Animation variants
-  const containerVariants = {
+  const containerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
@@ -71,28 +71,29 @@ const Skills = () => {
     },
   };
 
-  const itemVariants = {
+  const itemVariants: Variants = {
     hidden: { opacity: 0, y: 20 },
     visible: {
       opacity: 1,
       y: 0,
-      transition: { duration: 0.6, ease: "easeOut" },
+      transition: { duration: 0.5, ease: [0.4, 0, 0.2, 1] },
     },
   };
 
-  const badgeVariants = {
+  const badgeVariants: Variants = {
     hidden: { opacity: 0, scale: 0.9 },
     visible: {
       opacity: 1,
       scale: 1,
-                  transition: { duration: 0.5, ease: [0.4, 0, 0.2, 1] },    },
+      transition: { duration: 0.5, ease: [0.4, 0, 0.2, 1] },
+    },
   };
 
   return (
     <motion.div
       initial={{ scale: 0.98, opacity: 0 }}
       animate={{ scale: 1, opacity: 1 }}
-      transition={{ duration: 0.6, ease: [0.19, 1, 0.22, 1] }}
+      transition={{ duration: 0.5, ease: [0.4, 0, 0.2, 1] }}
       className="mx-auto w-full max-w-5xl rounded-4xl px-4 sm:px-6 dar:border dark:bg-neutral-900"
     >
       <Card className="w-full border-none px-0 pb-8 sm:pb-12 shadow-none">
