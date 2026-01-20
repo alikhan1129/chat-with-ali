@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import {
   Award,
   Code,
@@ -61,7 +61,7 @@ const ChatLanding: React.FC<ChatLandingProps> = ({
   };
 
   // Animation variants for staggered animation
-  const containerVariants = {
+  const containerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
@@ -71,14 +71,14 @@ const ChatLanding: React.FC<ChatLandingProps> = ({
     },
   };
 
-  const itemVariants = {
+  const itemVariants: Variants = {
     hidden: { opacity: 0, y: 20 },
     visible: {
       opacity: 1,
       y: 0,
       transition: {
         duration: 0.5,
-        ease: [0.4, 0, 0.2, 1] as const,
+        ease: [0.4, 0, 0.2, 1],
       },
     },
   };
