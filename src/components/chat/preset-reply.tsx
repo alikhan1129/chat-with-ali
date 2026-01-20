@@ -96,38 +96,17 @@ export function PresetReply({ question, reply, tool, onGetAIResponse, onClose }:
           
           {/* Only show AI option when there's a major component - no text needed */}
           {showAIOption && (
-            <ChatBubble variant="received">
-              <ChatBubbleMessage className="bg-gray-50/80 dark:bg-gray-800/80 w-full">
-                <div className="space-y-3 p-6 w-full">
-                  {onClose && (
-                    <div className="flex justify-end">
-                      <Button
-                        onClick={onClose}
-                        variant="ghost"
-                        size="sm"
-                        className="h-6 w-6 p-0 hover:bg-gray-200/50 rounded-full"
-                      >
-                        <X className="w-4 h-4" />
-                      </Button>
-                    </div>
-                  )}
-                  
-                  <div className="flex flex-col gap-3 px-2">
-                    <div className="flex justify-end">
-                      <Button 
-                        onClick={handleGetAIResponse}
-                        variant="outline"
-                        size="sm"
-                        className="text-xs bg-gradient-to-r from-purple-500 to-blue-500 text-white border-0 hover:from-purple-600 hover:to-blue-600 hover:text-white shadow-sm transition-all duration-200 hover:shadow-md"
-                      >
-                        <Sparkles className="w-3 h-3 mr-1.5 flex-shrink-0" />
-                        Get AI Response
-                      </Button>
-                    </div>
-                  </div>
-                </div>
-              </ChatBubbleMessage>
-            </ChatBubble>
+            <div className="flex justify-end pr-2">
+              <Button 
+                onClick={handleGetAIResponse}
+                variant="outline"
+                size="sm"
+                className="text-xs bg-gradient-to-r from-purple-500 to-blue-500 text-white border-0 hover:from-purple-600 hover:to-blue-600 hover:text-white shadow-sm transition-all duration-200 hover:shadow-md h-8"
+              >
+                <Sparkles className="w-3 h-3 mr-1.5 flex-shrink-0" />
+                Get AI Response
+              </Button>
+            </div>
           )}
         </div>
       ) : (        // Fallback to text-based preset for tools without components
@@ -250,18 +229,16 @@ export function PresetReply({ question, reply, tool, onGetAIResponse, onClose }:
               
               {/* Enhanced AI option */}
               {showAIOption && (
-                <div className="border-t border-gray-200/60 pt-1 mt-1">
-                  <div className="flex justify-end gap-2">
-                    <Button 
-                      onClick={handleGetAIResponse}
-                      variant="outline"
-                      size="sm"
-                      className="h-6 text-[10px] px-2 bg-gradient-to-r from-purple-500 to-blue-500 text-white border-0 hover:from-purple-600 hover:to-blue-600 hover:text-white shadow-sm"
-                    >
-                      <Sparkles className="w-2.5 h-2.5 mr-1" />
-                      Generate AI Response
-                    </Button>
-                  </div>
+                <div className="pt-2 flex justify-end">
+                  <Button 
+                    onClick={handleGetAIResponse}
+                    variant="outline"
+                    size="sm"
+                    className="h-7 text-[10px] px-2 bg-gradient-to-r from-purple-500 to-blue-500 text-white border-0 hover:from-purple-600 hover:to-blue-600 hover:text-white shadow-sm"
+                  >
+                    <Sparkles className="w-2.5 h-2.5 mr-1" />
+                    Generate AI Response
+                  </Button>
                 </div>
               )}
             </div>
