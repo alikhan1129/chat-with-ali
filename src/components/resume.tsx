@@ -22,7 +22,7 @@ export function Resume() {
     fileSize: "N/A",
     fileType: "PDF",
     downloadUrl: "/MD_Ali_Khan_AI_ML_Resume_2026.pdf",
-    previewImage: "/resume_preview.PNG"
+    previewImage: "/resume_preview.png"
   };
 
   const handleDownload = () => {
