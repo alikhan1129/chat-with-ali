@@ -28,7 +28,7 @@ export function Contact() {
       case 'linkedin': return <Linkedin className="h-5 w-5" />;
       case 'twitter': return <Twitter className="h-5 w-5" />;
       case 'github': return <Github className="h-5 w-5" />;
-      case 'leetcode': return <Code2 className="h-5 w-5" />;
+      case 'portfolio': return <Code2 className="h-5 w-5" />;
       default: return <ChevronRight className="h-5 w-5" />;
     }
   };

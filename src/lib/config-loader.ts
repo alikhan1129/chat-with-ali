@@ -49,9 +49,8 @@ try {
       linkedin: '',
       github: '',
       twitter: '',
-      kaggle: '',
-      leetcode: '',
-      fiverr: ''
+      portfolio: '',
+      instagram: ''
     },
     internship: {
       seeking: false,
