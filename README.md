@@ -1,6 +1,6 @@
 # 🤖 AI-Powered Interactive Portfolio
 
-[**Live Demo: chat-with-ali.onrender.com**](https://chat-with-ali.onrender.com)
+[**Live Demo: chat-with-ali.onrender.com**]([https://chat-with-ali.vercel.app/)
 
 A next-generation, **chat-first portfolio website** where visitors interact with an AI persona of the developer. Built with **Next.js 15**, **React 19**, **Tailwind CSS 4**, and the **Vercel AI SDK**.
 
