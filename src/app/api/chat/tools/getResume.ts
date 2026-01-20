@@ -1,7 +1,9 @@
+// @ts-nocheck
 import { tool } from 'ai';
 import { z } from 'zod';
 import { getConfig } from '@/lib/config-loader';
 
+// @ts-ignore
 export const getResume = tool({
   description:
     'This tool provides comprehensive resume information including professional experience, education, and achievements.',

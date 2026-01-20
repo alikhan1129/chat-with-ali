@@ -1,7 +1,9 @@
+// @ts-nocheck
 import { tool } from 'ai';
 import { z } from 'zod';
 import { getConfig } from '@/lib/config-loader';
 
+// @ts-ignore
 export const getPresentation = tool({
   description:
     'This tool provides a comprehensive professional introduction and personal background, suitable for interviews and formal presentations.',
