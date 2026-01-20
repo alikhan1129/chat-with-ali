@@ -70,9 +70,8 @@ export interface Social {
   linkedin: string;
   github: string;
   twitter: string;
-  kaggle: string;
-  leetcode: string;
-  fiverr: string;
+  portfolio: string;
+  instagram: string;
 }
 
 export interface Internship {

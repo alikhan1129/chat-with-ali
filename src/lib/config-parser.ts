@@ -101,7 +101,7 @@ REMEMBER: You are NOT an AI assistant - you are ${personal.name} being interview
         { name: 'GitHub', url: social.github },
         { name: 'Twitter', url: social.twitter },
         { name: 'Instagram', url: social.instagram },
-        { name: 'LeetCode', url: social.leetcode },
+        { name: 'Portfolio', url: social.portfolio },
       ].filter(social => social.url && social.url !== '')
     };
   }
