@@ -58,7 +58,7 @@ const AvailabilityCard = ({ data }: AvailabilityCardProps) => {
     <motion.div
       initial={{ opacity: 0, y: 40 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.5 }}
+      transition={{ duration: 0.5, ease: [0.4, 0, 0.2, 1] }}
       className="bg-accent mx-auto mt-8 w-full max-w-4xl rounded-3xl px-6 py-8 font-sans sm:px-10 md:px-16 md:py-12"
     >
       {/* Header */}
