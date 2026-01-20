@@ -113,19 +113,12 @@ export function PresetReply({ question, reply, tool, onGetAIResponse, onClose }:
                   )}
                   
                   <div className="flex flex-col gap-3 px-2">
-                    <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
-                      <div className="flex items-center gap-2 flex-wrap">
-                        <div className="flex items-center gap-1.5 text-xs text-blue-600 dark:text-blue-400">
-                          <Zap className="w-3 h-3 flex-shrink-0" />
-                          <span className="font-medium">Preset Response</span>
-                        </div>
-                        <span className="text-xs text-gray-500">• I implemented this to save API quota</span>
-                      </div>
+                    <div className="flex justify-end">
                       <Button 
                         onClick={handleGetAIResponse}
                         variant="outline"
                         size="sm"
-                        className="text-xs bg-gradient-to-r from-purple-500 to-blue-500 text-white border-0 hover:from-purple-600 hover:to-blue-600 hover:text-white shadow-sm transition-all duration-200 hover:shadow-md self-start sm:self-auto"
+                        className="text-xs bg-gradient-to-r from-purple-500 to-blue-500 text-white border-0 hover:from-purple-600 hover:to-blue-600 hover:text-white shadow-sm transition-all duration-200 hover:shadow-md"
                       >
                         <Sparkles className="w-3 h-3 mr-1.5 flex-shrink-0" />
                         Get AI Response
@@ -258,11 +251,7 @@ export function PresetReply({ question, reply, tool, onGetAIResponse, onClose }:
               {/* Enhanced AI option */}
               {showAIOption && (
                 <div className="border-t border-gray-200/60 pt-1 mt-1">
-                  <div className="flex items-center justify-between gap-2">
-                    <div className="flex items-center gap-1.5 text-[10px] text-gray-500">
-                      <Zap className="w-3 h-3 text-blue-500" />
-                      <span>Preset used to save API quota</span>
-                    </div>
+                  <div className="flex justify-end gap-2">
                     <Button 
                       onClick={handleGetAIResponse}
                       variant="outline"
